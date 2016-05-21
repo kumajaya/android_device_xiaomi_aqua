@@ -22,6 +22,10 @@ on boot
     chown system system /sys/bus/spi/drivers/fpc1020/spi1.2/wakeup_enable
     chown system system /sys/bus/spi/drivers/fpc1020/spi1.2/irq
 
+    # Touchscreen
+    chown root system /proc/focaltech_ft5x46/wakeup_mode
+    chmod 0660 /proc/focaltech_ft5x46/wakeup_mode
+
 on post-fs-data
     mkdir /data/fpc_tpl 770 system system
     mkdir /data/fpc 0770 system system

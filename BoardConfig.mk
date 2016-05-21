@@ -21,4 +21,7 @@ TARGET_RECOVERY_FSTAB := device/xiaomi/aqua/fstab.libra
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/aqua/sepolicy
 
+# Double tap to wake
+TARGET_TAP_TO_WAKE_NODE := "/proc/focaltech_ft5x46/wakeup_mode"
+
 -include vendor/xiaomi/libra/BoardConfigVendor.mk

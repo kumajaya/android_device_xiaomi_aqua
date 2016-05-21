@@ -21,7 +21,7 @@
 
 PRODUCT_COPY_FILES += \
     device/xiaomi/aqua/fstab.libra:root/fstab.libra \
-    device/xiaomi/aqua/init.libra.fp.rc:root/init.libra.fp.rc
+    device/xiaomi/aqua/init.aqua.rc:root/init.aqua.rc
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
