@@ -18,7 +18,4 @@ include device/xiaomi/libra/BoardConfig.mk
 
 TARGET_RECOVERY_FSTAB := device/xiaomi/aqua/fstab.libra
 
-BOARD_SEPOLICY_DIRS += \
-    device/xiaomi/aqua/sepolicy
-
 -include vendor/xiaomi/libra/BoardConfigVendor.mk
